@@ -1,0 +1,39 @@
+/* body {
+  background-color: rgb(45, 45, 45);
+} */
+
+
+.hero-img {
+  height: 70vh;
+  background-image: url(https://images.unsplash.com/photo-1629339942248-45d4b10c8c2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80);
+  background-size: cover;
+  background-position: top;
+}
+
+.hero-card {
+  background-color: rgba(67, 67, 67, 0.75);
+}
+
+.bizaro {
+  filter: hue-rotate(150deg);
+}
+
+.card-img {
+  width: 55%;
+  height: 150px;
+  object-fit: contain;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.personal-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  /* object fit cover crops the image to the size given */
+  object-position: top;
+}
+
+.text-warning {
+  color: rgb(255, 67, 99) !important;
+}
